@@ -3,3 +3,4 @@ opencv-python-headless
 numpy
 tensorflow
 av
+streamlit_webrtc
