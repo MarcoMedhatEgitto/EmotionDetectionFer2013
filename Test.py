@@ -119,5 +119,5 @@ class EmotionDetector(VideoTransformerBase):
         return av.VideoFrame.from_ndarray(img, format="bgr24")
 
 # Run the WebRTC streamer with Emotion Detection
-webrtc_streamer(key="emotion-detection", video_transformer_factory=EmotionDetector)
+webrtc_streamer(key="emotion-detection", video_processor_factory=EmotionDetector)
 
