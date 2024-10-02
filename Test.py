@@ -32,7 +32,7 @@ cap = cv2.VideoCapture(0)
 
 # Starting the Video and the application
 while True:
-    ret, frame = cv2.VideoCapture(0)
+    ret, frame = cap.read()
     # ret, frame = cap.read()
     if not ret:
         st.write("Camera is not working")
