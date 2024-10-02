@@ -28,7 +28,7 @@ model.load_weights("Models/model.weights.h5")
 print("Loaded model from disk")
 
 # Starting the camera
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Starting the Video and the application
 while True:
