@@ -1,6 +1,7 @@
 streamlit
 opencv-python-headless
 numpy
+keras
 tensorflow
 av
 streamlit_webrtc
