@@ -122,5 +122,4 @@ class EmotionDetector(VideoTransformerBase):
 
 
 # Run the WebRTC streamer with Emotion Detection
-webrtc_streamer(key="emotion-detection", video_processor_factory=EmotionDetector,
-                media_stream_constraints={"video": True, "audio": False})
+webrtc_streamer(key="sample")
