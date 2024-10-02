@@ -129,4 +129,3 @@ webrtc_streamer(
         "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
     }
 )
-webrtc_streamer(key="emotion-detection", video_processor_factory=EmotionDetector)
