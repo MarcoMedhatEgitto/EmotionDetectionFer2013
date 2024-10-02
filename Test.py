@@ -122,4 +122,11 @@ class EmotionDetector(VideoTransformerBase):
 
 
 # Run the WebRTC streamer with Emotion Detection
+webrtc_streamer(
+    key="emotion-detection",
+    video_processor_factory=EmotionDetector,
+    rtc_configuration={
+        "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
+    }
+)
 webrtc_streamer(key="emotion-detection", video_processor_factory=EmotionDetector)
