@@ -83,7 +83,7 @@ emotionCat = {
 jsonFile = open('Models/model.json', 'r')
 loaded_model_json = jsonFile.read()
 jsonFile.close()
-model = model_from_json(loaded_model_json)
+#model = model_from_json(loaded_model_json)
 model.load_weights("Models/model.weights.h5")
 st.title("Emotion Detector")
 st.success("Model loaded successfully!")
