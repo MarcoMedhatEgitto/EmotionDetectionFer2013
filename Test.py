@@ -60,7 +60,7 @@ while True:
         break
 
 cap.release()
-cv2.destroyAllWindows()
+# cv2.destroyAllWindows()
 # import av
 # import cv2
 # import numpy as np
